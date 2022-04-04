@@ -311,7 +311,7 @@ a{
 }
 
 .newsletter-title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     margin: 3rem 0;
 }
@@ -340,9 +340,11 @@ a{
 .newsletter-btn{
     font-size: 1.6rem;
     font-weight: 700;
-    text-decoration: none;
+    outline: none;
+    user-select: none;
+    border: none;
     cursor: pointer;
-    padding: 1.5rem 3.5rem;
+    padding: 1.4rem 3.5rem;
     border-radius: .5rem;
     color: hsl(193, 100%, 96%, .9);
     background-color: hsl(322, 100%, 66%);
@@ -384,8 +386,8 @@ a{
 }
 
 .footer-logo{
-    width: 20rem;
-    height: 33px;
+    width: 15rem;
+    height: 2.5rem;
     filter: brightness(0) invert(1);
 }
 
@@ -433,17 +435,23 @@ a{
     padding: 3px;
 }
 
+.fa-facebook-f:hover,
+.fa-twitter:hover{
+    transition: .2s ease-in;
+    background-color: hsl(192, 97%, 54%);
+}
+
 .fa-instagram{
     font-size: 3rem;
     margin: 0 2rem;
     color: hsl(0, 0%, 100%);
 }
 
-.social-icon:hover{
-    transition: .2s ease-in;
-    color:hsl(300, 69%, 71%);
-    border: 1px solid hsl(300, 69%, 71%);
-}   
+.fa-instagram:hover{
+    background-color: none;
+    color: hsl(192, 97%, 54%);
+}
+
 
 /*******For Attribution********/
 .attribution{ 
@@ -549,7 +557,7 @@ a{
 
     /*********Article-Section*********/
     .article-section{
-        margin-bottom: 23rem;
+        margin-bottom: 15rem;
     }
 
     .article{
@@ -587,9 +595,14 @@ a{
         width: 100%;
         height: 15rem;
     }
+
+    .footer-logo{
+        width: 23rem;
+        height: 3.5rem;
+    }
     
     .newsletter-title{
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin-top: 0;
     }
     
@@ -788,7 +801,7 @@ a{
 
     .footer-logo{
         width: 20rem;
-        height: 30px;
+        height: 3rem;
     }
 
     .location-text,
@@ -813,6 +826,7 @@ a{
     .newsletter-input{
         width: 65%;
         margin: 0;
+        padding: 1.75rem;
     }
 
     .newsletter-btn-div{
@@ -837,8 +851,11 @@ a{
 
 }
 
-
 @media screen and (min-width: 1440px){ 
+    
+}
+
+/* @media screen and (min-width: 1440px){ 
     .hero-section{
         height: 90vh;
         padding: 5rem 5rem 5rem;
@@ -863,7 +880,7 @@ a{
         height: 60rem; 
     }
 
-    /*********Article-Section*********/
+    /*********Article-Section*********
     .article{
         width: 70%; 
         padding: 8rem; 
@@ -888,7 +905,7 @@ a{
         margin: 0;
     }
 
-    /********Footer-section********/
+    /********Footer-section********
     .getstarted-intro{
         width: 40%; 
         padding: 5rem 0; 
@@ -898,4 +915,4 @@ a{
         padding: 0 5rem;
     }
 
-}
+} */
