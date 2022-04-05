@@ -464,7 +464,14 @@ a{
 
 .attribution a { 
     color: hsl(322, 100%, 66%); 
+    transition: all .3s ease-in;
 }
+
+.attribution a:hover{
+    color: hsl(192, 97%, 54%);
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 768px){
     .hero-section{
@@ -802,6 +809,12 @@ a{
         width: 75%;
     }
 
+    .contact-phone,
+    .contact-email{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
     .newsletter-title{
         font-size: 3rem;
     }
@@ -853,7 +866,7 @@ a{
 
     .page-info{
         font-size: 3.7rem; 
-        line-height: 6rem; 
+        line-height: 5.5rem; 
     }
 
     .hero-image-div{
@@ -908,7 +921,7 @@ a{
     }
 
     .article-text{
-        line-height: 6rem;
+        line-height: 5.5rem;
         font-size: 3.5rem;
     }
 
@@ -947,7 +960,7 @@ a{
     .email-address,
     .newsletter-text{
         font-size: 2.7rem;
-        line-height: 5rem;
+        line-height: 4.3rem;
     }
 
     .location-text{
