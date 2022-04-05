@@ -90,7 +90,7 @@ a{
 }
 
 .page-info-title{ 
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     padding: 2rem 1.5rem 0;
     color: hsl(192, 100%, 9%);
     text-shadow: 0 1px 1.5px hsl(192, 100%, 9%, .5);
@@ -102,8 +102,7 @@ a{
     line-height: 2.5rem;
     margin: 2.5rem 0 4rem;
     padding: 0 .5rem;
-    color: hsl(192, 100%, 9%, .5);
-    text-shadow: 0 1px 1.5px hsl(192, 100%, 9%, .5);
+    color: hsl(192, 100%, 9%, .7);
 }
 
 .getstarted-btn{
@@ -117,7 +116,7 @@ a{
     font-weight: 600;
     color: hsl(193, 100%, 96%, .9);
     background-color: hsl(322, 100%, 66%);
-    box-shadow: 0 .3rem .5rem rgb(0, 0, 0,.5);
+    box-shadow: inset 0 .5rem 1rem rgb(0, 0, 0,.5);
 }
 
 .getstarted-btn:hover{
@@ -158,7 +157,7 @@ a{
 .rate-name{
     text-align: center;
     line-height: 2;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: hsl(208, 11%, 55%, .7);
     text-shadow: 0 .5px .5px hsl(208, 11%, 55%, .5);
@@ -182,8 +181,6 @@ a{
 .article{
     padding: 3rem 0;
     width: 100%;
-    color: hsl(192, 100%, 9%, .5);
-    text-shadow: 0 1px 1.5px hsl(192, 100%, 9%, .5);
 }
 
 .article-div{
@@ -238,14 +235,15 @@ a{
 }
 
 .article-title{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .article-text{
     margin-top: 2rem;
-    line-height: 2.1rem;
-    font-size: 1.4rem;
-    color: hsl(208, 11%, 55%); 
+    line-height: 3rem;
+    font-size: 1.8rem;
+    color: hsl(192, 100%, 9%, .8);
+    font-weight: 400;
 }
 
 .article-1-bottom,
@@ -489,7 +487,7 @@ a{
     /*******ARTICLES SECTION*********/
    
     .about-page{
-        margin: 5rem auto 5rem auto;
+        margin: 5rem auto;
     }
 
     .page-info-title{ 
@@ -511,10 +509,6 @@ a{
     .hero-image-div{
         width: 80%;
         height: 35rem;
-    }
-
-    .hero-image{
-        margin-top: 3rem;
     }
 
     /*********Rating-Section*********/
@@ -627,14 +621,6 @@ a{
         font-size: 2rem;
     }
 
-    .contact-phone,
-    .contact-email{
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 2rem;
-    }
 }
 
 
@@ -695,6 +681,12 @@ a{
     .rate-2{
         margin: 0;
     }
+
+    .rate-1-img,
+    .rate-2-img{
+        width: 4rem;
+        height: 4rem;
+    }
     
     .rate-number{
         font-size: 5.5rem;
@@ -702,12 +694,6 @@ a{
     
     .rate-name{
         font-size: 2.2rem;
-    }
-
-    .rate-1-img,
-    .rate-2-img{
-        width: 4rem;
-        height: 4rem;
     }
   
     .article-1-top,
@@ -770,7 +756,7 @@ a{
         padding: 0;
     }
 
-    /********Footer-section********/
+    /********Getstarted - section********/
     .getstarted-intro{
         width: 50%; 
         padding: 4rem 0; 
@@ -781,7 +767,7 @@ a{
         margin: 0 0 5rem 0;
     }
 
-    /* Footer-section */
+    /********Footer-section********/
     .footer-info-div{
         width: 100%;
         display: flex;
@@ -816,6 +802,14 @@ a{
         width: 75%;
     }
 
+    .newsletter-title{
+        font-size: 3rem;
+    }
+
+    .newsletter-text{
+        width: 80%;
+    }
+
     .newsletter-input-wrapper{
         width: 90%;
         display: flex;
@@ -840,79 +834,159 @@ a{
         font-size: 1.8rem;
         padding: 1.5rem 2.5rem;
     }
-
-    .newsletter-text{
-        width: 80%;
-    }
-
-    .newsletter-title{
-        font-size: 3rem;
-    }
-
 }
 
 @media screen and (min-width: 1440px){ 
-    
-}
 
-/* @media screen and (min-width: 1440px){ 
-    .hero-section{
-        height: 90vh;
-        padding: 5rem 5rem 5rem;
+    .logo{
+        height: 5rem;
     }
    
     .about-page{
-        width: 40%; 
+        margin: 8rem auto;
+        width: 90%;
     }
 
     .page-info-title{ 
-        line-height: 6rem;
-        font-size: 5rem; 
+        font-size: 6.5rem; 
     }
 
     .page-info{
-        font-size: 3rem; 
-        line-height: 5rem; 
+        font-size: 3.7rem; 
+        line-height: 6rem; 
     }
 
     .hero-image-div{
-        width: 45%; 
-        height: 60rem; 
-    }
-
-    /*********Article-Section*********
-    .article{
         width: 70%; 
-        padding: 8rem; 
+        height: 80rem; 
     }
 
-    .article-div{ 
-        width: 40%; 
+    /*********Rating-Section*********/
+    .rating-section{
+        margin-top: 8rem;
     }
 
-    .article-title{
-        font-size: 4.5rem;
-        line-height: 5rem;
+    .rate-1-img,
+    .rate-2-img{
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    .rate-number{
+        font-size: 8rem;
+    }
+    
+    .rate-name{
+        font-size: 3.3rem;
     }
 
-    .article-text{
-        line-height: 3.5rem;
+    /*********Article-Section*********/
+    .article-1-top,
+    .article-3-top,
+    .article-1-bottom,
+    .article-3-bottom,
+    .footer-top{
+        height: 32rem;
+        background-size: cover;
+    }
+
+    .article-div{
+        width: 45%; 
     }
 
     .article-image{
-        width: 50%; 
-        height: 55rem; 
-        margin: 0;
+        width: 45%; 
+        height: 70rem; 
     }
 
-    /********Footer-section********
+    .article-title{
+        font-size: 5.5rem;
+    }
+    
+    .article-text{
+        padding: 0;
+    }
+
+    .article-text{
+        line-height: 6rem;
+        font-size: 3.5rem;
+    }
+
+    /********Getstarted-section********/
     .getstarted-intro{
-        width: 40%; 
-        padding: 5rem 0; 
+        width: 70%; 
     }
 
+    .getstarted-intro h3{
+        font-size: 4.7rem;
+        margin: 0 0 7rem 0;
+    }
+
+    /********Footer-section********/
     .footer-info-div{
-        padding: 0 5rem;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 0 5rem 0;
     }
 
-} */
+    .newsletter-div{
+        width: 40%;
+    }
+
+    .footer-contact-info{
+        width: 55%;
+    }
+
+    .footer-logo{
+        width: 30rem;
+        height: 5rem;
+    }
+
+    .location-text,
+    .phone-number,
+    .email-address,
+    .newsletter-text{
+        font-size: 2.7rem;
+        line-height: 5rem;
+    }
+
+    .location-text{
+        width: 85%;
+    }
+
+    .contact-phone,
+    .contact-email{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .newsletter-title{
+        font-size: 4.7rem;
+    }
+
+    .newsletter-text{
+        width: 100%;
+    }
+
+    .newsletter-input-wrapper{
+        width: 95%;
+    }
+
+    .newsletter-input{
+        width: 75%;
+        padding: 2.2rem;
+    }
+
+    .newsletter-btn-div{
+        width: 15%;
+    }
+  
+    .newsletter-btn{
+        font-size: 1.8rem;
+        padding: 2rem 2.5rem;
+    }
+
+    .attribution{ 
+        font-size: 1.8rem;
+    }
+}
